@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australia</title>
+    <style>
+        body{
+            background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(https://th.bing.com/th/id/OIP.mAfjb4HD39JicRKw2dAbPQHaD_?rs=1&pid=ImgDetMain);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-origin: cover;
+        }h1{
+            text-align: center;
+            animation: head 4s;
+
+        }
+        @keyframes head {
+            from{
+                transform: translateX(-500px);
+            }
+            
+        }
+        .left{
+            float: left;
+            width: 300px;
+            height: 500px;
+            margin: 30px;
+            box-shadow: 0 0 5px whitesmoke;
+            transition: 3s;
+            animation: head linear;
+            animation-timeline: view(100px);
+
+
+        }
+        @keyframes head {
+            from{
+                width: 0px;
+                height: 0px;
+                filter: blur(40px) ;
+            }
+            
+        } 
+        .left:hover{
+            transform: perspective(500px) rotateY(40deg);
+        }
+        .right{
+            float: right;
+            height: 500px;
+            width: 500px;
+            margin: 30px;
+            box-shadow:  0 0 10px white;
+            transition: 3s;
+            animation: head linear;
+            animation-timeline: view(100px);
+        }
+       
+        .right:hover{
+            
+            transform: perspective(500px) rotateY(-40deg);
+        }
+        
+        .wall{
+            padding: 110px;
+            width: 70vw;
+            height: 70vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Australia</h1>
+    <div class="wall">
+        <h3>Sydney Opera House</h3>
+        <p> 
+            <img class="left" src="https://th.bing.com/th/id/R.d05f4a303949f7a80f818e69aab84050?rik=9sHq17UawrkH1A&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fa1%2fSydney_Opera_House_Night.jpg&ehk=UPH%2f6guJm822k7aXF%2fQrZtYsoK7tgkzIDMq%2fjUOWnmo%3d&risl=1&pid=ImgRaw&r=0" alt="grand ">
+<ol>The Sydney Opera House is one of the most iconic landmarks in Australia, located in Sydney Harbour</ol>
+<ol>Designed by Danish architect Jørn Utzon and opened in 1973, the Sydney Opera House is renowned for its unique sail-like design and serves as a world-class performing arts venue</ol>
+<ol>The opera house hosts a wide range of performances, including opera, ballet, theater, and concerts, and attracts millions of visitors each year who come to admire its architecture and attend its cultural events</ol>   </p>
+    </div>
+    <div class="wall">
+        <h3>Great Barrier Reef, Queensland</h3>
+        <p> 
+            <img class="right" src="https://th.bing.com/th/id/OIP.nmPFMd2c_Bm6WqlhTZ9WgAAAAA?pid=ImgDetMain" alt="grand ">
+<ol>The Great Barrier Reef is the world's largest coral reef system, stretching over 2,300 kilometers (1,400 miles) along the coast of Queensland, Australia</ol>
+<ol>Designated as a UNESCO World Heritage Site, the Great Barrier Reef is home to an incredible diversity of marine life, including colorful coral reefs, tropical fish, sharks, dolphins, and sea turtles</ol>
+<ol>Visitors can explore the reef through various activities such as snorkeling, scuba diving, sailing, and helicopter tours, experiencing firsthand one of the most spectacular natural wonders on Earth</ol>
+        </p>
+    </div>
+    <div class="wall">
+        <h3>Uluru (Ayers Rock), Northern Territory</h3>
+        <p> 
+            <img class="left" src="https://th.bing.com/th/id/OIP.QhmxRJuLeyxnQLoVBJ9LLwHaE8?pid=ImgDetMain" alt="grand ">
+<ol>Uluru, also known as Ayers Rock, is a massive sandstone monolith located in Uluru-Kata Tjuta National Park in the Northern Territory of Australia</ol>
+<ol>Sacred to the Indigenous Anangu people, Uluru is a significant cultural and spiritual site with deep cultural significance and connection to Dreamtime stories</ol>
+<ol>Visitors come to Uluru to witness its breathtaking natural beauty, especially during sunrise and sunset when the rock undergoes dramatic color changes.</ol>
+        </p>
+    </div>
+</body>
+</html>
