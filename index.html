@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-   body{
+  body {
     margin: 0;
-    background-image: url(./Musical.jpg);
-    background-attachment: cover;
-    background-repeat:no-repeat;
-    /* background: linear-gradient(#141e30,#243b55); */
-    min-height:100vh;
+    padding: 0;
+    background-image: url('./Musical.jpg');
+    background-size: cover;           /* ✅ This makes the image cover the full container */
+    background-position: center;      /* ✅ Centers the image */
+    background-repeat: no-repeat;     /* ✅ Prevents tiling */
+    background-attachment: fixed;     /* Optional: keeps image fixed while scrolling */
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:Arial Narrow Bold'', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 .container{
     width: 400px;
@@ -252,3 +254,4 @@ button{
 </body>
 
 </html
+
